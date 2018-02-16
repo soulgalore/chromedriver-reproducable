@@ -1,0 +1,24 @@
+{
+  "description": "chromedriver-reproducable",
+  "version": "0.0.1",
+  "dependencies": {
+    "alto-saxophone": "2.35.0",
+    "selenium-webdriver": "3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.8.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check"
+  },
+  "license": "MIT"
+}
